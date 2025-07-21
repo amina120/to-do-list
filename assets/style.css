@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  background: blueviolet;
+  margin: 0;
+}
+.navbar {
+  background: #141212;
+  padding: 1em;
+}
+.main-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 5em;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 30px 0;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: linear-gradient(45deg, #ffffff, #f0f0f0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  margin: 0;
+  padding: 0;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+main {
+  max-width: 800px;
+  margin: 2em auto;
+  background: #29b032;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+section {
+  margin-bottom: 2em;
+}
+/* To-do List styles */
+#todo-app {
+  margin-top: 1em;
+}
+.todo-input {
+  padding: 0.5em;
+  width: 70%;
+}
+.todo-btn {
+  padding: 0.5em 1em;
+  margin-left: 0.5em;
+  color: #0f0f0f;
+}
+.todo-list {
+  margin-top: 1em;
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em 0;
+  border-bottom: 1px solid #eee;
+}
+.todo-completed {
+  text-decoration: line-through;
+  color: #888;
+}
+/* Form Validator styles */
+#validator-app input,
+#validator-app button {
+  margin: 0.5em 0;
+  padding: 0.5em;
+}
+.validator-error {
+  color: rgb(110, 13, 13);
+  font-size: 0.9em;
+}
+/* Quiz styles */
+#quiz-app {
+  margin-top: 1em;
+}
+.quiz-question {
+  font-weight: bold;
+}
+.quiz-options {
+  list-style: none;
+  padding: 0;
+}
+.quiz-options li {
+  margin: 0.5em 0;
+}
+.quiz-score {
+  font-weight: bold;
+  color: rgb(219, 232, 247);
+}
+/* Theme Switcher styles */
+#theme-app {
+  margin-top: 1em;
+}
+.theme-btn {
+  padding: 0.5em 1em;
+  margin-right: 1em;
+}
+.dark-mode {
+  background: #222;
+  color: #eee;
+}
