@@ -1,4 +1,4 @@
-# Mini Projects Hub
+# Mini Projects 
 
 This website contains four interactive demos:
 
@@ -7,16 +7,10 @@ This website contains four interactive demos:
 - Simple Quiz
 - Theme Switcher
 
-Navigate using the menu. Each project demonstrates DOM manipulation and JavaScript fundamentals.
-
-## How to use
-
-Open `index.html` in your browser. All features work without any dependencies.
-
 ## Structure
 
-- `index.html`: Main page and navigation
-- `assets/style.css`: Styles for all projects
-- `assets/main.js`: JavaScript logic for all projects
+- `index.html`: Main page
+- `assets/style.css`: Styles
+- `assets/main.js`: JavaScript logic 
 
-Feel free to customize or expand each demo!
+
